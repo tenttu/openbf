@@ -8,6 +8,11 @@
 *.dll.config
 *.cache
 *.suo
+*.sdf
+*.opensdf
+*.sln
+*.vcxproj
+*.vcxproj.*
 # Include dlls if they’re in the NuGet packages directory
 !/packages/*/lib/*.dll
 # VS Upgrade stuff #
@@ -19,6 +24,7 @@ _UpgradeReport_Files/
 bin/
 obj/
 TestResults/
+ipch/
 # Web publish log #
 ###################
 *.Publish.xml
